@@ -125,6 +125,7 @@ def remover_tarefa(indice):
         for index, itens in enumerate(tarefas, start=1):
             if indice == index:
                 tarefas.pop(index-1)
+                print(f"Tarefa {index} apagada")
     """
     Remove da lista a tarefa na posição `indice` (começando em 1).
 
